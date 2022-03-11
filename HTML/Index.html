@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Tommy S"
+  <meta name="description" content="ShopShopApp">
+  <link rel="stylesheet" href="/CSS/indexStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <title>Shop Shop App</title>
+</head>
+<body>
+  <header>
+    <h1> <i class="fa-solid fa-shop"></i>Shop Shop App</h1>
+  </header>
+  <div class="main">
+<!-------------------------Container One----------------------->
+<div class="container-One">
+  <div class="box one">
+    <h3>Har Nok av</h3>
+    <input
+      type="text"
+      id="product-one"
+      placeholder="Skriv her"
+      onfocus="this.value=''"/>
+<button onclick="addToListOne()">legg til </button>
+  </div>
+  <div class="box" id="product-one-list"></div>
+</div>
+    <!---------------------------Container Two-------------------->
+    <div class="container-Two">
+      <div class="box two">
+        <h2>Begynner å minke</h2>
+        <input
+          type="text"
+          id="product-two"
+          placeholder="Skriv her"
+          onfocus="this.value=''"/>
+<button onclick="addToListTwo()">legg til </button>
+      </div>
+      <div class="box" id="product-two-list"></div>
+    </div>
+<!---------------------Container Three--------------------->
+<div class="container-Three">
+  <div class="box three">
+    <h2>Tomt, Trenger å handle.</h2>
+    <input
+      type="text"
+      id="product-three"
+      placeholder="Skriv her"
+      onfocus="this.value=''"/>
+      <input
+      type="number"
+      id="product-price"
+      placeholder="Skriv prisen her"
+      onfocus="this.value=''"/>
+<button onclick="addToListThree()">Legg til</button>
+  </div>
+  <div class="box" id="product-three-list"></div>
+  <div class="box" id="price-outPut">
+    <h4>Total Pris:</h4>
+    <h4 id="sumProductThree"></h4>
+  </div>
+</div>
+</div>
+  <script src="/HTML/app.js"></script>
+</body>
+</html>
