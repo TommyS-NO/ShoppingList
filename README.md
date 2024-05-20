@@ -1,5 +1,5 @@
 # ShoppingList Mandatory assignment Javascript
-
+## MARS 2022!
 Velkommen til ShoppingList Mandatory assignment Javascript! Dette er et enkelt webapplikasjonsprosjekt hvor du kan administrere handlelister i forskjellige kategorier. Dette prosjektet er utviklet som en del av et JavaScript-arbeidskrav.
 
 ## Funksjoner
