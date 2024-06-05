@@ -1,47 +1,52 @@
-# ShoppingList Mandatory assignment Javascript
-## MARS 2022!
-Velkommen til ShoppingList Mandatory assignment Javascript! Dette er et enkelt webapplikasjonsprosjekt hvor du kan administrere handlelister i forskjellige kategorier. Dette prosjektet er utviklet som en del av et JavaScript-arbeidskrav.
+# Shoppinglist App
 
-## Funksjoner
+## Project Description
 
-- **Legg til produkter i kategorier**: Administrer produkter i tre forskjellige kategorier: "Har Nok av", "Nice to have", og "Må ha".
-- **Slett produkter**: Fjern produkter fra listene når du ikke trenger dem lenger.
-- **Total prisberegning**: Beregn total prisen for produkter som må kjøpes.
+Shoppinglist App is a simple, user-friendly application for managing shopping lists. The application allows users to categorize items into three categories: "Have Enough", "Nice to Have", and "Must Have". Users can add, view, and delete items from these lists and see the total price for the "Must Have" items.
 
-## Installasjon
+### Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Preview](#preview)
+- [Technologies Used](#technologies-used)
 
-1. **Klon repositoriet**:
+### About the Project
+This project aims to simplify shopping list management by categorizing items based on priority and tracking the total cost of essential items.
 
-     git clone https://github.com/TommyS-NO/ShoppingList-Mandatory-assignment-Javascript.git
+### Features
+- **Categorized Lists**: Manage items in three categories: "Have Enough", "Nice to Have", and "Must Have".
+- **Add and Delete Items**: Easily add items with quantity and price, and remove them when no longer needed.
+- **Total Cost Calculation**: Automatically calculates and displays the total cost of items in the "Must Have" category.
 
-2. **Naviger til prosjektmappen**:
- 
-    cd <repo-navn>
+### Installation
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/TommyS-NO/ShoppingList.git
+    cd ShoppingList
+    ```
+2. **Open `index.html`** in your preferred browser.
 
-3. **Åpne `index.html` i din nettleser**.
+### Usage
+#### Adding Items
+1. Open the application.
+2. Choose the appropriate category ("Have Enough", "Nice to Have", "Must Have").
+3. Enter the item name and quantity. For "Must Have" items, also enter the price.
+4. Click the **Add** button to add the item to the list.
 
-## Bruk
+#### Deleting Items
+1. Click the **Delete** button next to the item you want to remove.
+2. Confirm the deletion in the modal that appears.
 
-1. **Legg til produkter**:
-   - Skriv inn produktnavnet i riktig kategori og klikk "Legg til".
-   - For kategorien "Må ha", skriv også inn prisen for produktet.
+#### Viewing Total Cost
+1. The total cost for items in the "Must Have" category is displayed at the bottom of the respective section.
 
-2. **Slett produkter**:
-   - Klikk "Slett" ved siden av produktet og bekreft slettingen.
+### Preview
+![Preview 1](./images/preview_1.png)
+![Preview 2](./images/preview_2.png)
 
-## Teknologi
-
-- HTML
-- CSS
-- JavaScript
-
-## Forhåndsvisning
-
-![Shop Shop App Forhåndsvisning](images/preview_1.png)
-![Shop Shop App Forhåndsvisning](images/preview_2.png)
-
-## Lisens
-
-Dette prosjektet er lisensiert under MIT-lisensen.
-
----
+### Technologies Used
+- **HTML**
+- **CSS**
+- **JavaScript**
